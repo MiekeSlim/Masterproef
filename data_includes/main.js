@@ -1,20 +1,22 @@
-PennController.ResetPrefix(null);
-PennController.DebugOff()
-PennController.SetCounter("Counter")
-PennController.Sequence("DeviceCheck", "Counter", "Subject", "Welcome", "Consent", "trials", "QuestionnairePage", "DebriefingPage", "Send", "Closing")
+// Masterproef
 
+PennController.ResetPrefix(null) // Shorten command names (keep this line here)
+//PennController.DebugOff()
+PennController.SetCounter("Counter")
+PennController.Sequence("DeviceCheck+subject", "Counter", "Subject", "Welcome", "Consent", randomize("trials"), "QuestionnairePage", "Send", "Closing")
 
 
 // Check for L1
-PennController("DeviceCheck",
-    newText("Device", "<br><br>Are you doing this experiment on a web browser on a computer or laptop (not on a phone, iPad, etc.)?<br><br>")
+PennController("DeviceCheck+Subject",
+    newText("Device", "<br><br>Doe je dit experiment via een webbrowser op een computer of laptop (niet op een smartphone, tablet etc.)?<br><br>")
         .print()
     ,
-    newButton("yesPC", "Yes")
+    newButton("yesPC", "Ja")
     ,
-    newButton("noPC", "No")
+    newButton("noPC", "Nee")
         .settings.before( getButton("yesPC") )
         .print()
+    
     ,
     newSelector("yesnoPC")
         .settings.add( getButton("yesPC") , getButton("noPC"))
@@ -24,73 +26,61 @@ PennController("DeviceCheck",
         .settings.log()
         .test.selected(getButton("yesPC") )
         .failure(
-            newText("<br><br>Unfortunately, this experiment only works on a computer. Please close the experiment and come back on a computer or laptop. <br><br>")
+            newText("<br><br>Helaas werkt dit experiment alleen op een computer. Gelieve het experiment af te sluiten en herop te starten op een computer of laptop. <br><br>")
                 .print()
             ,
             newKey("SPACE")
             .wait()
-        )         
-)
-
-// Subject info
-   PennController("Subject",
-    defaultText
-        .print()
-    ,
-    newText("<p>For your participation, you can win a &pound;100 voucher for Amazon (or another webstore, in case you prefer that). Therefore, please leave your email adress in the text field below. so we can contact you in case you won the voucher.  We will not use this emailaddress for any other purposes.</p>")
-    ,
-    newTextInput("Email")
-        .print()
-    ,
-    newTextInput("Subject", randomnumber = Math.floor(Math.random()*1000000))             
-    ,
-    newButton("Start")
-        .print()
-        .wait()
+            
+    ,    
+    newTextInput("Subject", randomnumber = Math.floor(Math.random()*1000000)) 
+    
     ,
     newVar("Subject")
         .settings.global()
         .set( getTextInput("Subject") )
-    ,
-    newVar("Email")
-        .settings.global()
-        .set( getTextInput("Email") )
+    
     )
-    .log( "Subject" , getVar("Subject") )
-    .log( "Email" , getVar("Email") )
+    .log( "Subject" , getVar("Subject") )        
+            
+        )         
 
 
-// Welcome
+
+
+// Welcome, consent, and creditstuff
 // Instructions
     PennController("Welcome",
-        newText("WelcomeText", "<p>Hello and thank you for participating in this study! </p><p> </p><p> This experiment is a monolingual experiment in English. For this experiment, it is important that you are a native speaker of English. You will be asked to match a picture with a sentence. <b> Please read each sentence carefully, before you select the the picture. </b> If you believe that multiple pictures can be matched to the sentence, please choose your spontaneous preference. After this task, you will be asked to give some information on your language background. </p><p> </p><p> In this study, I investigate several aspects of monolingual and bilingual language processing. This study explores the language processing of Estonian-English and Dutch-English bilinguals and compares this with monolingual language processing. If you would like more details about the findings of this experiment, please send me an email on mieke.slim@ugent.be, and I will send you a report of the findings  Please take part in this experiment on a web browser, not on a tablet or a mobile phone. Note that taking part in this experiment is entirely voluntary and refusal or withdrawal will involve no penalty or loss, now or in the future. </p><p> </p><p> </p><p> </p><p> I (Mieke Slim) can be contacted via mieke.slim@ugent.be if there is anything that is not clear or if you would like more information. Take time to decide whether or not you wish to take part.</p><p> </p><p> Your answers are stored anonymously, and personal details can only be accessed by me (Mieke Slim). The results disseminated at academic journals and conferences. Results are  presented in terms of groups of individuals. If any individual data are presented, the data will be completely anonymous, without any means of identifying the individuals involved. </p><p> </p><p> The project has received ethical approval from the Research Ethics Committee of the Faculty of Modern and Medieval Languages at the University of Cambridge.</p><p> </p><p> I you have any questions, please email me on mieke.slim@ugent.be</p><p> <br> <b> Sometimes, a screen that says that the survey is loading may appear. If this happens, please wait for a couple of seconds. This never takes long. </b> ")
+        newText("WelcomeText", "<p>Hallo en bedankt om deel te nemen aan deze studie! </p><p> </p><p>Vooraleer je besluit om deel te nemen aan deze studie, is het belangrijk om te snappen waarom dit onderzoek wordt uitgevoerd en wat het zal inhouden. Neem de tijd om onderstaande uitleg aandachtig te lezen. Je kan me (Helene Van Marcke) bereiken via Helene.VanMarcke@UGent.be indien er iets onduidelijk is of je meer informatie wenst. Neem de tijd om te beslissen of je deel wilt nemen of niet. </p><p> </p><p> In deze studie onderzoek ik aspecten van tweetalige taalverwerking in het kader van mijn masterproef. Indien je meer details zou wensen over de uiteindelijke resultaten van het onderzoek, kan je een e-mail sturen naar Helene.VanMarcke@UGent.be. </p><p> </p><p> Dit experiment is een tweetalig experiment in Nederlands en Engels. Het is belangrijk dat je moedertaal Nederlands is en je kennis van Engels hebt. In het experiment zal je telkens een zin lezen, gevolgd door twee plaatjes. <b> Jouw taak is om te klikken op het plaatje dat de gebeurtenis uit de zin correct weergeeft. Gelieve elke zin aandachtig te lezen vooraleer je een plaatje kiest. </b> Sommige zinnen zullen in het Nederlands zijn, sommige in het Engels. Indien je denkt dat beide plaatjes bij de zin kunnen passen, kies dan je spontane voorkeur. Na de taak zal je gevraagd worden enkele vragen over je taalachtergrond te beantwoorden. </p><p> </p><p> Gelieve dit experiment af te leggen op een webbrowser, niet via een tablet of smartphone. Niet deelnemen aan dit experiment is geheel vrijwillig. Het weigeren of stopzetten van je deelname zal op geen enkel moment een straf of verlies inhouden. </p><p> </p><p> Alle antwoorden worden anoniem opgeslagen en alleen ik (Helene Van Marcke) heb toegang tot persoonlijke gegevens. De resultaten van de studie zullen worden weergegeven op groepsniveau. Indien individuele data toch gepresenteerd wordt, gebeurt dit geheel anoniem en zonder mogelijkheid om het individu te traceren. </p><p> </p><p> Bij vragen, gelieve een mail te sturen naar Helene.VanMarcke@UGent.be</p><p> <br> <b>Het kan gebeuren dat er een scherm verschijnt waarop staat dat de survey aan het laden is. Gelieve enkele seconden te wachten wanneer dit gebeurt. Dit duurt nooit lang. </b> ") 
         ,
         newCanvas( "myCanvas", 500, 800)
             .settings.add(0,0, getText("WelcomeText"))
             .print()
         ,
-        newButton("finish", "Continue")
+        newButton("finish", "Doorgaan")
             .print()
             .wait()  
      )
     
 // Consent
     PennController("Consent",
-        newText("ConsentText", "<p> <b> Please read the following carefully! </b> </p><p>I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, and without my rights being affected. </p><p> I understand that any data that are collected will be used and stored anonymously, in accordance with the Data Protection Act. Results are normally presented in terms of groups of individuals. If any individual data were presented, the data would be completely anonymous, without any means of identifying the individuals involved. </p><p> I understand that these data may be used in analyses, publications, and conference presentations by researchers at the University of Cambridge and their collaborators at other research institutions. I give permission for these individuals to have access to these data.</p>")
+        newText("ConsentText", "<p> <b> Gelieve onderstaande tekst aandachtig te lezen! </b> </p><p> Ik snap dat mijn deelname vrijwillig is en ik mijn deelname op ieder moment mag stopzetten zonder een reden te moeten opgeven en zonder dat mijn rechten hierdoor aangetast worden. </p><p> Ik snap dat alle data die verzameld wordt anoniem zal worden gebruikt en opgeslagen, in overeenstemming met de Algemene Verordening Gegevensbescherming (GDPR). Resultaten worden normaal gezien weergegeven op groepsniveau. Indien individuele data toch gepresenteerd wordt, gebeurt dit volledig anoniem en zonder de mogelijkheid om het individu in kwestie te traceren. </p>")
         ,
         newCanvas( "myCanvas", 300, 600)
             .settings.add(0,0, getText("ConsentText"))
             .print()
         ,
-        newButton("I have read an approved the information on this page, continue")
+        newButton("Ik heb de informatie op deze pagina gelezen en goedgekeurd, doorgaan")
             .settings.center()
             .print()
             .wait()    
         )
-
-
+        
+      
 // Implementing the Trials
-    PennController.Template("trials.csv",
+
+
+    PennController.Template("Trials_MP.csv",
         variable => PennController("trials", 
             newText("sentence", variable.Sentence)
                 .settings.center()
@@ -98,11 +88,11 @@ PennController("DeviceCheck",
                 .settings.bold()
                 .print()
             ,
-            newImage("picture1", variable.Picture1)
+            newImage("picture1", variable.Picture1.jpg)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )
             ,
-            newImage("picture2", variable.Picture2)
+            newImage("picture2", variable.Picture2.jpg)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )                                   
             ,
@@ -118,15 +108,15 @@ PennController("DeviceCheck",
                 .settings.log()
                 .wait()
         )
-    .log( "Subject"         , getVar("Subject")         )     
-    .log( "Group"           , variable.Group            )
-    .log( "StimulusType"    , variable.Stimuli_Type     )                            
+    .log( "Subject"         , getVar("Subject")         ) 
+    .log( "StimulusType"    , variable.Stimulus_Type    )                            
     .log( "Sentence"        , variable.Sentence         )
     .log( "Item"            , variable.Item             )
-    .log( "Picture1"        , variable.Picture1         )                           
-    .log( "Experiment"      , variable.CorPic           ) 
-    .log( "Picture2"        , variable.Picture2         )
-    .log( "PrimeCondition"  , variable.PrimeCondition   )   
+    .log( "Group"           , variable.Group            )
+    .log( "Picture1"        , variable.Picture1.jpg     )                           
+    .log( "Experiment"      , variable.Correct          ) 
+    .log( "Picture2"        , variable.Picture2.jpg     )
+    .log( "PrimeCondition"  , variable.Prime_condition  )   
     .log( "Email" , getVar("Email") )                            
 )
 
