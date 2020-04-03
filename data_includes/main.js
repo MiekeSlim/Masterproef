@@ -3,8 +3,8 @@
 PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 //PennController.DebugOff()
 PennController.SetCounter("Counter")
-//PennController.Sequence("DeviceCheck+subject", "Counter", "Subject", "Welcome", "Consent", randomize("trials"), "QuestionnairePage", "Send", "Closing")
-
+PennController.CheckPreloaded().label("Preload")
+PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "QuestionnairePage", "Send", "Closing")
 
 // Check for L1
 PennController("DeviceCheck+Subject",
@@ -45,9 +45,6 @@ PennController("DeviceCheck+Subject",
             
 )         
 
-
-
-
 // Welcome, consent, and creditstuff
 // Instructions
     PennController("Welcome",
@@ -75,11 +72,8 @@ PennController("DeviceCheck+Subject",
             .print()
             .wait()    
         )
-        
-      
+   
 // Implementing the Trials
-
-
     PennController.Template("Trials_MP.csv",
         variable => PennController("trials", 
             newText("sentence", variable.Sentence)
@@ -104,7 +98,7 @@ PennController("DeviceCheck+Subject",
             ,
             newSelector()
                 .settings.add( getImage("picture1") , getImage("picture2") )
-//                .shuffle()
+//               .shuffle()
                 .settings.log()
                 .wait()
         )
@@ -137,13 +131,13 @@ PennController("QuestionnairePage",
 
 PennController.SendResults("Send");
 
-    PennController("Closing",
-        newText("Explanation", "Dear participant, <br><br> Thank you for your participation! <br><br> In this study, we test and compare monolingual and bilingual language processing. Some of the sentences you read were ambiguous, such as <i> All the apples are not in the boxes </i>. This sentence can be interpreted as meaning that none of the apples are in the boxes, but also that not all (but some) apples are in the boxes. In this experiment, we wanted to test whether preceding exposure to pictures showing one of the two situations would influence your choice of interpretation of these sentences. <br><br> Do you want to know more, or receive a report of the results? Please email me on mieke.slim@ugent.be <br><br> You can now exit the experiment by closing the browser.")
-        ,
-        newCanvas("Canvas", 500, 600)
-            .settings.add(0,0, getText("Explanation"))
-            .print()
-        ,
-        newButton("void")
-            .wait()
-     )
+PennController("Closing",
+    newText("Explanation", "Dear participant, <br><br> Thank you for your participation! <br><br> In this study, we test and compare monolingual and bilingual language processing. Some of the sentences you read were ambiguous, such as <i> All the apples are not in the boxes </i>. This sentence can be interpreted as meaning that none of the apples are in the boxes, but also that not all (but some) apples are in the boxes. In this experiment, we wanted to test whether preceding exposure to pictures showing one of the two situations would influence your choice of interpretation of these sentences. <br><br> Do you want to know more, or receive a report of the results? Please email me on mieke.slim@ugent.be <br><br> You can now exit the experiment by closing the browser.")
+    ,
+    newCanvas("Canvas", 500, 600)
+        .settings.add(0,0, getText("Explanation"))
+        .print()
+    ,
+    newButton("void")
+        .wait()
+)
