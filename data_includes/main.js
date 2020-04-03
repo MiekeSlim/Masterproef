@@ -3,7 +3,7 @@
 PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 //PennController.DebugOff()
 PennController.SetCounter("Counter")
-PennController.Sequence("DeviceCheck+subject", "Counter", "Subject", "Welcome", "Consent", randomize("trials"), "QuestionnairePage", "Send", "Closing")
+//PennController.Sequence("DeviceCheck+subject", "Counter", "Subject", "Welcome", "Consent", randomize("trials"), "QuestionnairePage", "Send", "Closing")
 
 
 // Check for L1
@@ -41,9 +41,9 @@ PennController("DeviceCheck+Subject",
         .set( getTextInput("Subject") )
     
     )
-    .log( "Subject" , getVar("Subject") )        
+    //.log( "Subject" , getVar("Subject") )        
             
-        )         
+)         
 
 
 
@@ -88,11 +88,11 @@ PennController("DeviceCheck+Subject",
                 .settings.bold()
                 .print()
             ,
-            newImage("picture1", variable.Picture1.jpg)
+            newImage("picture1", variable.Picture1jpg)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )
             ,
-            newImage("picture2", variable.Picture2.jpg)
+            newImage("picture2", variable.Picture2jpg)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )                                   
             ,
@@ -109,15 +109,14 @@ PennController("DeviceCheck+Subject",
                 .wait()
         )
     .log( "Subject"         , getVar("Subject")         ) 
-    .log( "StimulusType"    , variable.Stimulus_Type    )                            
+    .log( "StimulusType"    , variable.Stimulus_type    )                            
     .log( "Sentence"        , variable.Sentence         )
     .log( "Item"            , variable.Item             )
     .log( "Group"           , variable.Group            )
-    .log( "Picture1"        , variable.Picture1.jpg     )                           
+    .log( "Picture1"        , variable.Picture1jpg      )                           
     .log( "Experiment"      , variable.Correct          ) 
-    .log( "Picture2"        , variable.Picture2.jpg     )
+    .log( "Picture2"        , variable.Picture2jpg      )
     .log( "PrimeCondition"  , variable.Prime_condition  )   
-    .log( "Email" , getVar("Email") )                            
 )
 
 // Vragen gegevens:
