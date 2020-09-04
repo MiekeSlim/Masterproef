@@ -75,7 +75,7 @@ PennController("DeviceCheck+Subject",
    
 // Implementing the Trials
     PennController.Template("Trials_MP.csv",
-        variable => newTrial( 
+        variable => PennController("trials", 
             newText("sentence", variable.Sentence)
                 .settings.center()
                 .settings.css("font-size", "30px")
