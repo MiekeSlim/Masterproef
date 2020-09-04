@@ -101,15 +101,15 @@ PennController("DeviceCheck+Subject",
 //               .shuffle()
                 .settings.log()
                 .wait()
-        
-    .log( "Subject"         , getVar("Subject")         ) 
-    .log( "StimulusType"    , variable.Stimulus_type    )
-    .log( "Group"           , variable.Group            )                              
-    .log( "Sentence"        , variable.Sentence         )
-    .log( "Item"            , variable.Item             )
-    .log( "Picture1"        , variable.Picture1jpg      )                           
-    .log( "Experiment"      , variable.Correct          ) 
-    .log( "Picture2"        , variable.Picture2jpg      )
+    ,    
+    .log( "Subject"         , getVar("Subject")         ),
+    .log( "StimulusType"    , variable.Stimulus_type    ),
+    .log( "Group"           , variable.Group            ),                             
+    .log( "Sentence"        , variable.Sentence         ),
+    .log( "Item"            , variable.Item             ),
+    .log( "Picture1"        , variable.Picture1jpg      ),                          
+    .log( "Experiment"      , variable.Correct          ),
+    .log( "Picture2"        , variable.Picture2jpg      ),
     .log( "PrimeCondition"  , variable.Prime_condition  )  
     )                              
 )
