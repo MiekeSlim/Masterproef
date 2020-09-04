@@ -106,7 +106,6 @@ PennController("DeviceCheck+Subject",
     .log( "StimulusType"    , variable.Stimulus_type    )                            
     .log( "Sentence"        , variable.Sentence         )
     .log( "Item"            , variable.Item             )
-    .log( "Group"           , variable.Group            )
     .log( "Picture1"        , variable.Picture1jpg      )                           
     .log( "Experiment"      , variable.Correct          ) 
     .log( "Picture2"        , variable.Picture2jpg      )
