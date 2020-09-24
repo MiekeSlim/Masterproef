@@ -98,7 +98,7 @@ PennController("DeviceCheck+Subject",
             ,
             newSelector()
                 .settings.add( getImage("picture1") , getImage("picture2") )
-//               .shuffle()
+                .shuffle()
                 .settings.log()
                 .wait()
     )  
