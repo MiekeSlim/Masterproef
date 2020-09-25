@@ -86,7 +86,7 @@ PennController("DeviceCheck+Subject",
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )
             ,
-            newImage("CorrOrLa", variable.CorrOrLA)
+            newImage("CorrOrLA", variable.CorrOrLA)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )                                   
             ,
