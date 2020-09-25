@@ -1,0 +1,409 @@
+Group,Trials,Item,Stimulus_type,Prime_condition,Sentence,Picture1,IncorFillerPrime+HA,Picture2,CorFillerPrime+LA
+1,1,1,Filler,NA,De serveerster schopte de inbreker,A7B,A7B.jpg,A7A,A7A.jpg
+1,1,2,Filler,NA,De artiest verkocht een boek aan de zwemmer,B5E,B5E.jpg,A5C,A5C.jpg
+1,1,3,Filler,NA,The teacher gave the swimmer a banana,B1F,B1F.jpg,B1A,B1A.jpg
+1,1,4,Filler,NA,De non toonde de bokser een kruik,B3C,B3C.jpg,A3C,A3C.jpg
+1,28,135,Prime,low,De cowboy stompte de piraat met een hamer,C15Pl,C15Pl.jpg,C15Ll,C15Ll.jpg
+1,28,136,Target,NA,The policeman thumped the swimmer with a ball,C15Ch,C15Ch.jpg,C15Cl,C15Cl.jpg
+1,28,137,Filler,NA,De piraat overhandigde de inbreker een cake,A2A,A2A.jpg,A2E,A2E.jpg
+1,28,138,Filler,NA,The pirate held the gun,A9D,A9D.jpg,A9F,A9F.jpg
+1,28,139,Filler,NA,The cowboy threw the sailor a ball,B4B,B4B.jpg,B4F,B4F.jpg
+1,3,10,Prime,high,De politieman sloeg de danser met een hamer,C8Gh,C8Gh.jpg,C8Ch,C8Ch.jpg
+1,3,11,Target,NA,The artist hit the clown with a ball,C8Kh,C8Kh.jpg,C8Kl,C8Kl.jpg
+1,3,12,Filler,NA,De artiest verkocht een geweer aan de dokter,C5B,C5B.jpg,B5B,B5B.jpg
+1,3,13,Filler,NA,The policeman threw the dancer an apple,A4H,A4H.jpg,A4C,A4C.jpg
+1,3,14,Filler,NA,De artiest gaf de soldaat een banaan,B1A,B1A.jpg,C1A,C1A.jpg
+1,39,190,Prime,low,De cowboy verwonde de clown met een zwaard,C26Ol,C26Ol.jpg,C26Kl,C26Kl.jpg
+1,39,191,Target,NA,The teacher injured the sailor with a hammer,C26Bh,C26Bh.jpg,C26Bl,C26Bl.jpg
+1,39,192,Filler,NA,The cowboy offered the soldier an apple,A6B,A6B.jpg,A6F,A6F.jpg
+1,39,193,Filler,NA,De leerkracht gaf de soldaat een boek,B1F,B1F.jpg,B1D,B1D.jpg
+1,39,194,Filler,NA,The chef handed the sailor a ball,C2E,C2E.jpg,B2G,B2G.jpg
+1,23,110,Prime,low,De artiest sloeg de clown met een bal,C8Ol,C8Ol.jpg,C8Kl,C8Kl.jpg
+1,23,111,Target,NA,The cowboy hit the soldier with a ball,C8Fh,C8Fh.jpg,C8Fl,C8Fl.jpg
+1,23,112,Filler,NA,De politieman gooide een hoed naar de soldaat,A4F,A4F.jpg,A4B,A4B.jpg
+1,23,113,Filler,NA,The waitress kissed the apple,A13E,A13E.jpg,A13D,A13D.jpg
+1,23,114,Filler,NA,De kok hield de kruik vast,A9B,A9B.jpg,A9A,A9A.jpg
+1,18,85,Prime,high,De kok verwonde de zwemmer met een geweer,C26Eh,C26Eh.jpg,C26Ah,C26Ah.jpg
+1,18,86,Target,NA,The pirate injured the sailor with a bat,C26Jh,C26Jh.jpg,C26Jl,C26Jl.jpg
+1,18,87,Filler,NA,The waitress tickled the doctor,A21D,A21D.jpg,B21A,B21A.jpg
+1,18,88,Filler,NA,De piraat gooide een boek naar de zeiler,B4B,B4B.jpg,B4G,B4G.jpg
+1,18,89,Filler,NA,The boxer shot the artist,B17C,B17C.jpg,B17G,B17G.jpg
+1,19,90,Prime,high,De leraar verwonde de zeiler met een hamer,C26Fh,C26Fh.jpg,C26Bh,C26Bh.jpg
+1,19,91,Target,NA,The cowboy injured the clown with a sword,C26Kh,C26Kh.jpg,C26Kl,C26Kl.jpg
+1,19,92,Filler,NA,De serveerster kietelde de monnik,B21F,B21F.jpg,B21E,B21E.jpg
+1,19,93,Filler,NA,The artist sold the sailor a book,A5C,A5C.jpg,B5D,B5D.jpg
+1,19,94,Filler,NA,The nun pushed the dancer,A19B,A19B.jpg,A19A,A19A.jpg
+1,29,140,Prime,low,De non stompte de danser met een knuppel,C15Ql,C15Ql.jpg,C15Ml,C15Ml.jpg
+1,29,141,Target,NA,The artist thumped the burglar with a hammer,C15Dh,C15Dh.jpg,C15Dl,C15Dl.jpg
+1,29,142,Filler,NA,The artist handed the sailor a hat,B2B,B2B.jpg,A2G,A2G.jpg
+1,29,143,Filler,NA,De piraat volgde de monnik,B11B,B11B.jpg,B11A,B11A.jpg
+1,29,144,Filler,NA,De non duwde de hoed,A19D,A19D.jpg,A19C,A19C.jpg
+1,15,70,Prime,high,De artiest prikte de danser met een sleutel,C25Fh,C25Fh.jpg,C25Bh,C25Bh.jpg
+1,15,71,Target,NA,The waitress prodded the burglar with a hammer,C25Kh,C25Kh.jpg,C25Kl,C25Kl.jpg
+1,15,72,Filler,NA,De cowboy gooide een geweer naar de soldaat,B4B,B4B.jpg,B4A,B4A.jpg
+1,15,73,Filler,NA,De kok hield de bal vast,A9A,A9A.jpg,A9C,A9C.jpg
+1,15,74,Filler,NA,De artiest verkocht een kruik aan de dokter,B5B,B5B.jpg,A5E,A5E.jpg
+1,13,60,Prime,high,De leraar porde de monnik met een paraplu,C16Hh,C16Hh.jpg,C16Dh,C16Dh.jpg
+1,13,61,Target,NA,The waitress poked the boxer with a key,C16Mh,C16Mh.jpg,C16Ml,C16Ml.jpg
+1,13,62,Filler,NA,De cowboy sloeg de dokter,B8E,B8E.jpg,B8D,B8D.jpg
+1,13,63,Filler,NA,De kok gaf de dokter een bal,A1B,A1B.jpg,A1F,A1F.jpg
+1,13,64,Filler,NA,The burglar tickled the waitress,B21C,B21C.jpg,B21G,B21G.jpg
+1,16,75,Prime,high,De leraar prikte de bokser met een banaan,C25Gh,C25Gh.jpg,C25Ch,C25Ch.jpg
+1,16,76,Target,NA,The artist prodded the monk with a key,C25Lh,C25Lh.jpg,C25Ll,C25Ll.jpg
+1,16,77,Filler,NA,De artiest kuste de clown,B13A,B13A.jpg,A13C,A13C.jpg
+1,16,78,Filler,NA,De cowboy bood de monnik een appel aan,A6D,A6D.jpg,A6B,A6B.jpg
+1,16,79,Filler,NA,The nun held the cup,B9E,B9E.jpg,B9A,B9A.jpg
+1,36,175,Prime,low,De artiest prikte de monnik met een sleutel,C25Pl,C25Pl.jpg,C25Ll,C25Ll.jpg
+1,36,176,Target,NA,The teacher prodded the boxer with a banana,C25Ch,C25Ch.jpg,C25Cl,C25Cl.jpg
+1,36,177,Filler,NA,De piraat hield de bal vast,B9C,B9C.jpg,A9E,A9E.jpg
+1,36,178,Filler,NA,The teacher ate the apple,B15A,B15A.jpg,B15C,B15C.jpg
+1,36,179,Filler,NA,De serveerster kietelde de inbreker,B21D,B21D.jpg,B21C,B21C.jpg
+1,8,35,Prime,high,De politieman stompte de zwemmer met een bal,C15Gh,C15Gh.jpg,C15Ch,C15Ch.jpg
+1,8,36,Target,NA,The cowboy thumped the pirate with a hammer,C15Lh,C15Lh.jpg,C15Ll,C15Ll.jpg
+1,8,37,Filler,NA,De piraat hield de hoed vast,A9E,A9E.jpg,A9D,A9D.jpg
+1,8,38,Filler,NA,The artist kissed the boxer,A13B,A13B.jpg,A13A,A13A.jpg
+1,8,39,Filler,NA,De monnik kietelde de artiest,A21C,A21C.jpg,A21F,A21F.jpg
+1,9,40,Prime,high,De artiest stompte de inbreker met een hamer,C15Hh,C15Hh.jpg,C15Dh,C15Dh.jpg
+1,9,41,Target,NA,The nun thumped the dancer with a bat,C15Mh,C15Mh.jpg,C15Ml,C15Ml.jpg
+1,9,42,Filler,NA,The artist tickled the dancer,A21B,A21B.jpg,A21A,A21A.jpg
+1,9,43,Filler,NA,De cowboy bood de inbreker een banaan aan,A6D,A6D.jpg,A6A,A6A.jpg
+1,9,44,Filler,NA,The policeman threw the boxer a hat,A4B,A4B.jpg,A4D,A4D.jpg
+1,40,195,Prime,low,De leraar verwonde de zwemmer met een hamer,C26Pl,C26Pl.jpg,C26Ll,C26Ll.jpg
+1,40,196,Target,NA,The pirate injured the burglar with a sword,C26Ch,C26Ch.jpg,C26Cl,C26Cl.jpg
+1,40,197,Filler,NA,De serveerster schopte de bal,A7A,A7A.jpg,A7E,A7E.jpg
+1,40,198,Filler,NA,De serveerster bood de danser een geweer aan,B6D,B6D.jpg,B6J,B6J.jpg
+1,40,199,Filler,NA,The pirate showed the boxer a jug,B3G,B3G.jpg,B3C,B3C.jpg
+1,2,5,Prime,high,De cowboy sloeg de soldaat met een boek,C8Fh,C8Fh.jpg,C8Bh,C8Bh.jpg
+1,2,6,Target,NA,The teacher hit the swimmer with a gun,C8Jh,C8Jh.jpg,C8Jl,C8Jl.jpg
+1,2,7,Filler,NA,The chef gave the clown a ball,A1D,A1D.jpg,A1B,A1B.jpg
+1,2,8,Filler,NA,De leraar verkocht een appel aan de soldaat,B5C,B5C.jpg,A5L,A5L.jpg
+1,2,9,Filler,NA,The waitress offered the dancer a cake,B6H,B6H.jpg,B6F,B6F.jpg
+1,33,160,Prime,low,De serveerster porde de bokser met een sleutel,C16Ql,C16Ql.jpg,C16Ml,C16Ml.jpg
+1,33,161,Target,NA,The policeman poked the monk with an umbrella,C16Dh,C16Dh.jpg,C16Dl,C16Dl.jpg
+1,33,162,Filler,NA,The cowboy threw the dancer a banana,B4J,B4J.jpg,B4C,B4C.jpg
+1,33,163,Filler,NA,De cowboy sloeg de bokser,A8E,A8E.jpg,A8F,A8F.jpg
+1,33,164,Filler,NA,De non hield de kruik vast,A9A,A9A.jpg,B9B,B9B.jpg
+1,14,65,Prime,high,De serveerster prikte de clown met een paraplu,C25Eh,C25Eh.jpg,C25Ah,C25Ah.jpg
+1,14,66,Target,NA,The policeman prodded the docter with a gun,C25Jh,C25Jh.jpg,C25Jl,C25Jl.jpg
+1,14,67,Filler,NA,De artiest kuste de bokser,B13G,B13G.jpg,A13A,A13A.jpg
+1,14,68,Filler,NA,De inbreker verkocht een geweer aan de dokter ,B5B,B5B.jpg,C5B,C5B.jpg
+1,14,69,Filler,NA,The nun followed the soldier,A11B,A11B.jpg,A11A,A11A.jpg
+1,20,95,Prime,high,De piraat verwonde de inbreker met een zwaard,C26Gh,C26Gh.jpg,C26Ch,C26Ch.jpg
+1,20,96,Target,NA,the teacher injured the swimmer with a hammer,C26Lh,C26Lh.jpg,C26Kl,C26Kl.jpg
+1,20,97,Filler,NA,De kok hief de bal op,A10C,A10C.jpg,B10D,B10D.jpg
+1,20,98,Filler,NA,The pirate lifted the ball,A10D,A10D.jpg,A10C,A10C.jpg
+1,20,99,Filler,NA,De zeiler volgde de non,A11C,A11C.jpg,A11F,A11F.jpg
+1,27,130,Prime,low,De artiest stompte de monnik met een boek,C15Ol,C15Ol.jpg,C15Kl,C15Kl.jpg
+1,27,131,Target,NA,The chef thumped the sailor with a gun,C15Bh,C15Bh.jpg,C15Bl,C15Bl.jpg
+1,27,132,Filler,NA,The nun showed the boxer a banana,A3C,A3C.jpg,A3D,A3D.jpg
+1,27,133,Filler,NA,The policeman threw the monk a hat,A4D,A4D.jpg,A4F,A4F.jpg
+1,27,134,Filler,NA,De soldaat sloeg de artiest,B8J,B8J.jpg,B8H,B8H.jpg
+1,37,180,Prime,low,De leraar prikte de zwemmer met een paraplu,C25Ql,C25Ql.jpg,C25Ml,C25Ml.jpg
+1,37,181,Target,NA,The policeman prodded the soldier with a gun,C25Dh,C25Dh.jpg,C25Dl,C25Dl.jpg
+1,37,182,Filler,NA,The nun kissed the monk,B13B,B13B.jpg,B13C,B13C.jpg
+1,37,183,Filler,NA,De artiest verkocht een hoed aan de zeiler,B5E,B5E.jpg,A5B,A5B.jpg
+1,37,184,Filler,NA,The chef shot the burglar,A17B,A17B.jpg,A17A,A17A.jpg
+1,26,125,Prime,low,De politieman stompte de soldaat met een geweer,C15Nl,C15Nl.jpg,C15Jl,C15Jl.jpg
+1,26,126,Target,NA,The teacher thumped the clown with a book,C15Ah,C15Ah.jpg,C15Al,C15Al.jpg
+1,26,127,Filler,NA,De piraat toonde de serveerster een kruik,C3J,C3J.jpg,B3G,B3G.jpg
+1,26,128,Filler,NA,De serveerster bood de danser een cake aan,B6J,B6J.jpg,B6F,B6F.jpg
+1,26,129,Filler,NA,The chef lifted the hat,A10B,A10B.jpg,B10E,B10E.jpg
+1,21,100,Prime,high,De cowboy verwonde de dokter met een knuppel,C26Hh,C26Hh.jpg,C26Dh,C26Dh.jpg
+1,21,101,Target,NA,The chef injured the boxer with a gun,C26Mh,C26Mh.jpg,C26Ml,C26Ml.jpg
+1,21,102,Filler,NA,The artist sold the clown a cup,B5A,B5A.jpg,B5F,B5F.jpg
+1,21,103,Filler,NA,The waitress touched the dancer,A23B,A23B.jpg,A23A,A23A.jpg
+1,21,104,Filler,NA,De kok gaf de bokser een geweer,A1E,A1E.jpg,A1C,A1C.jpg
+1,34,165,Prime,low,De politieman prikte de dokter met een geweer,C25Nl,C25Nl.jpg,C25Jl,C25Jl.jpg
+1,34,166,Target,NA,The waitress prodded the clown with an umbrella,C25Ah,C25Ah.jpg,C25Al,C25Al.jpg
+1,34,167,Filler,NA,The pirate followed the dancer,B11D,B11D.jpg,B11C,B11C.jpg
+1,34,168,Filler,NA,De artiest verkocht een geweer aan de danser ,A5H,A5H.jpg,A5A,A5A.jpg
+1,34,169,Filler,NA,The teacher kissed the banana,A13F,A13F.jpg,B13F,B13F.jpg
+1,10,45,Prime,high,De serveerster porde de dokter met een banaan,C16Eh,C16Eh.jpg,C16Ah,C16Ah.jpg
+1,10,46,Target,NA,The artist poked the clown with a gun,C16Jh,C16Jh.jpg,C16Jl,C16Jl.jpg
+1,10,47,Filler,NA,De kok gaf de bokser een bal,A1E,A1E.jpg,A1J,A1J.jpg
+1,10,48,Filler,NA,The chef lifted the gun,A10A,A10A.jpg,B10F,B10F.jpg
+1,10,49,Filler,NA,The teacher sold the dancer a jug,A5E,A5E.jpg,A5H,A5H.jpg
+1,17,80,Prime,high,De leraar prikte de soldaat met een geweer,C25Hh,C25Hh.jpg,C25Dh,C25Dh.jpg
+1,17,81,Target,NA,The teacher prodded the swimmer with an umbrella,C25Mh,C25Mh.jpg,C25Ml,C25Ml.jpg
+1,17,82,Filler,NA,The waitress kicked the clown,A7D,A7D.jpg,A7C,A7C.jpg
+1,17,83,Filler,NA,The teacher gave the swimmer a book,C1B,C1B.jpg,B1F,B1F.jpg
+1,17,84,Filler,NA,De piraat hief het geweer op,A10B,A10B.jpg,A10A,A10A.jpg
+1,22,105,Prime,low,De leraar sloeg de zwemmer met een geweer,C8Nl,C8Nl.jpg,C8Jl,C8Jl.jpg
+1,22,106,Target,NA,The nun hit the monk with a book,C8Eh,C8Eh.jpg,C8El,C8El.jpg
+1,22,107,Filler,NA,De artiest schoot op de bokser,B17D,B17D.jpg,B17C,B17C.jpg
+1,22,108,Filler,NA,The burglar showed the soldier a cup,B3F,B3F.jpg,C3D,C3D.jpg
+1,22,109,Filler,NA,De kok duwde de clown,A19B,A19B.jpg,B19E,B19E.jpg
+1,30,145,Prime,low,De artiest porde de clown met een geweer,C16Nl,C16Nl.jpg,C16Jl,C16Jl.jpg
+1,30,146,Target,NA,The waitress poked the doctor with a banana,C16Ah,C16Ah.jpg,C16Al,C16Al.jpg
+1,30,147,Filler,NA,The burglar sold the sailor a book,B5D,B5D.jpg,C5A,C5A.jpg
+1,30,148,Filler,NA,De artiest sloeg de soldaat,B8B,B8B.jpg,B8A,B8A.jpg
+1,30,149,Filler,NA,The waitress offered the boxer a banana,B6G,B6G.jpg,B6B,B6B.jpg
+1,25,120,Prime,low,De politieman sloeg de zeiler met een hamer,C8Ql,C8Ql.jpg,C8Ml,C8Ml.jpg
+1,25,121,Target,NA,The artist hit the pirate with a hammer,C8Hh,C8Hh.jpg,C8Hl,C8Hl.jpg
+1,25,122,Filler,NA,The teacher hit the jug,A8A,A8A.jpg,A8C,A8C.jpg
+1,25,123,Filler,NA,The cowboy offered the burglar an apple,A6F,A6F.jpg,A6D,A6D.jpg
+1,25,124,Filler,NA,The artist shot the jug,B17B,B17B.jpg,B17A,B17A.jpg
+1,35,170,Prime,low,De serveerster prikte de inbreker met een hamer,C25Ol,C25Ol.jpg,C25Kl,C25Kl.jpg
+1,35,171,Target,NA,The artist prodded the dancer with a key,C25Bh,C25Bh.jpg,C25Bl,C25Bl.jpg
+1,35,172,Filler,NA,De non kuste de danser,B13A,B13A.jpg,B13B,B13B.jpg
+1,35,173,Filler,NA,De serveerster at de cake,A15B,A15B.jpg,A15A,A15A.jpg
+1,35,174,Filler,NA,The artist sold the doctor a jug,A5D,A5D.jpg,A5E,A5E.jpg
+1,5,20,Prime,high,De kok sloeg de inbreker met een knuppel,C8Ph,C8Ph.jpg,C8Lh,C8Lh.jpg
+1,5,21,Target,NA,The nun hit the monk with a ball,C8Ah,C8Ah.jpg,C8Al,C8Al.jpg
+1,5,22,Filler,NA,The pirate lifted the cup,B10A,B10A.jpg,A10E,A10E.jpg
+1,5,23,Filler,NA,The artist showed the swimmer a hat,A3E,A3E.jpg,A3G,A3G.jpg
+1,5,24,Filler,NA,De artiest verkocht een banaan aan de inbreker,A5G,A5G.jpg,A5F,A5F.jpg
+1,31,150,Prime,low,De leraar porde de soldaat met een banaan,C16Ol,C16Ol.jpg,C16Kl,C16Kl.jpg
+1,31,151,Target,NA,The artist poked the boxer with a gun,C16Bh,C16Bh.jpg,C16Bl,C16Bl.jpg
+1,31,152,Filler,NA,De leraar at de cake,A15A,A15A.jpg,B15A,B15A.jpg
+1,31,153,Filler,NA,The dancer showed the doctor a jug,C3B,C3B.jpg,C3H,C3H.jpg
+1,31,154,Filler,NA,De serveerster raakte de dokter aan,A23G,A23G.jpg,A23C,A23C.jpg
+1,4,15,Prime,high,De artiest sloeg de piraat met een geweer,C8Hh,C8Hh.jpg,C8Dh,C8Dh.jpg
+1,4,16,Target,NA,The policeman hit the sailor with a hammer,C8Mh,C8Mh.jpg,C8Ml,C8Ml.jpg
+1,4,17,Filler,NA,The artist tickled the monk,A21D,A21D.jpg,A21C,A21C.jpg
+1,4,18,Filler,NA,The chef held the ball,A9E,A9E.jpg,A9C,A9C.jpg
+1,4,19,Filler,NA,The pirate showed the burglar a hat,B3H,B3H.jpg,B3B,B3B.jpg
+1,6,25,Prime,high,De leraar stompte de clown met een boek,C15Eh,C15Eh.jpg,C15Ah,C15Ah.jpg
+1,6,26,Target,NA,The policeman thumped the soldier with a gun,C15Jh,C15Jh.jpg,C15Jl,C15Jl.jpg
+1,6,27,Filler,NA,The nun followed the sailor,A11D,A11D.jpg,A11C,A11C.jpg
+1,6,28,Filler,NA,De artiest sloeg de kruik,A8C,A8C.jpg,B8G,B8G.jpg
+1,6,29,Filler,NA,The chef pushed the clown,B19F,B19F.jpg,B19E,B19E.jpg
+1,12,55,Prime,high,De leraar porde de inbreker met een sleutel,C16Gh,C16Gh.jpg,C16Ch,C16Ch.jpg
+1,12,56,Target,NA,The policeman poked the dancer with a hammer,C16Lh,C16Lh.jpg,C16Ll,C16Ll.jpg
+1,12,57,Filler,NA,The artist hit the book,B8G,B8G.jpg,B8C,B8C.jpg
+1,12,58,Filler,NA,The pirate handed the sailor a cake,A2H,A2H.jpg,A2A,A2A.jpg
+1,12,59,Filler,NA,The cowboy hit the dancer,B8D,B8D.jpg,B8F,B8F.jpg
+1,38,185,Prime,low,De piraat verwonde de zeiler met een knuppel,C26Nl,C26Nl.jpg,C26Jl,C26Jl.jpg
+1,38,186,Target,NA,The chef injured the swimmer with a gun,C26Ah,C26Ah.jpg,C26Al,C26Al.jpg
+1,38,187,Filler,NA,De leraar sloeg de monnik,A8B,A8B.jpg,A8A,A8A.jpg
+1,38,188,Filler,NA,The pirate showed the soldier a hat,B3F,B3F.jpg,B3H,B3H.jpg
+1,38,189,Filler,NA,De non duwde de zwemmer,B19B,B19B.jpg,A19E,A19E.jpg
+1,32,155,Prime,low,De politieman porde de danser met een hamer,C16Pl,C16Pl.jpg,C16Ll,C16Ll.jpg
+1,32,156,Target,NA,The teacher poked the burglar with a key,C16Ch,C16Ch.jpg,C16Cl,C16Cl.jpg
+1,32,157,Filler,NA,The waitress kissed the cake,B13E,B13E.jpg,A13E,A13E.jpg
+1,32,158,Filler,NA,The chef gave the monk a ball,A1F,A1F.jpg,A1D,A1D.jpg
+1,32,159,Filler,NA,De serveerster kietelde de dokter,B21B,B21B.jpg,B21A,B21A.jpg
+1,11,50,Prime,high,De artiest porde de bokser met een geweer,C16Fh,C16Fh.jpg,C16Bh,C16Bh.jpg
+1,11,51,Target,NA,The teacher poked the soldier with a banana,C16Kh,C16Kh.jpg,C16Kl,C16Kl.jpg
+1,11,52,Filler,NA,De zwemmer duwde de kok,B19G,B19G.jpg,B19B,B19B.jpg
+1,11,53,Filler,NA,De cowboy sloeg de zwemmer,A8E,A8E.jpg,A8D,A8D.jpg
+1,11,54,Filler,NA,De kok hief de cake op,B10C,B10C.jpg,B10B,B10B.jpg
+1,41,200,Prime,low,De kok verwonde de bokser met een geweer,C26Ql,C26Ql.jpg,C26Ml,C26Ml.jpg
+1,41,201,Target,NA,The cowboy injured the doctor with a bat,C26Dh,C26Dh.jpg,C26Dl,C26Dl.jpg
+1,41,202,Filler,NA,De piraat overhandigde de bokser een cake,A2E,A2E.jpg,A2H,A2H.jpg
+1,41,203,Filler,NA,The artist sold the sailor a hat,B5D,B5D.jpg,A5B,A5B.jpg
+1,41,204,Filler,NA,The cowboy threw the soldier a gun,B4H,B4H.jpg,B4A,B4A.jpg
+1,7,30,Prime,high,De chef stompte de zeiler met een geweer,C15Fh,C15Fh.jpg,C15Bh,C15Bh.jpg
+1,7,31,Target,NA,The artist thumped the monk with a book,C15Kh,C15Kh.jpg,C15Kl,C15Kl.jpg
+1,7,32,Filler,NA,De artiest kietelde clown,A21F,A21F.jpg,A21E,A21E.jpg
+1,7,33,Filler,NA,De inbreker gaf de bokser een beker,B1E,B1E.jpg,C1E,C1E.jpg
+1,7,34,Filler,NA,The dancer followed the pirate,B11C,B11C.jpg,B11G,B11G.jpg
+1,24,115,Prime,low,De kok sloeg de inbreker met een knuppel,C8Pl,C8Pl.jpg,C8Ll,C8Ll.jpg
+1,24,116,Target,NA,The policeman hit the dancer with a gun,C8Gh,C8Gh.jpg,C8Gl,C8Gl.jpg
+1,24,117,Filler,NA,The monk shot the chef,A17F,A17F.jpg,A17G,A17G.jpg
+1,24,118,Filler,NA,De non gooide een beker naar de zwemmer,A4A,A4A.jpg,A4G,A4G.jpg
+1,24,119,Filler,NA,De leraar kuste de appel,A13D,A13D.jpg,B13D,B13D.jpg
+2,1,1,Filler,NA,De serveerster schopte de inbreker,A7B,A7B.jpg,A7A,A7A.jpg
+2,1,2,Filler,NA,De artiest verkocht een boek aan de zwemmer,B5E,B5E.jpg,A5C,A5C.jpg
+2,1,3,Filler,NA,The teacher gave the swimmer a banana,B1F,B1F.jpg,B1A,B1A.jpg
+2,1,4,Filler,NA,De non toonde de bokser een kruik,B3C,B3C.jpg,A3C,A3C.jpg
+2,30,145,Prime,low,De artiest porde de clown met een geweer,C16Nl,C16Nl.jpg,C16Jl,C16Jl.jpg
+2,30,146,Target,NA,The waitress poked the doctor with a banana,C16Ah,C16Ah.jpg,C16Al,C16Al.jpg
+2,30,147,Filler,NA,The burglar sold the sailor a book,B5D,B5D.jpg,C5A,C5A.jpg
+2,30,148,Filler,NA,De artiest sloeg de soldaat,B8B,B8B.jpg,B8A,B8A.jpg
+2,30,149,Filler,NA,The waitress offered the boxer a banana,B6G,B6G.jpg,B6B,B6B.jpg
+2,33,160,Prime,low,De serveerster porde de bokser met een sleutel,C16Ql,C16Ql.jpg,C16Ml,C16Ml.jpg
+2,33,161,Target,NA,The policeman poked the monk with an umbrella,C16Dh,C16Dh.jpg,C16Dl,C16Dl.jpg
+2,33,162,Filler,NA,The cowboy threw the dancer a banana,B4J,B4J.jpg,B4C,B4C.jpg
+2,33,163,Filler,NA,De cowboy sloeg de bokser,A8E,A8E.jpg,A8F,A8F.jpg
+2,33,164,Filler,NA,De non hield de kruik vast,A9A,A9A.jpg,B9B,B9B.jpg
+2,6,25,Prime,high,De leraar stompte de clown met een boek,C15Eh,C15Eh.jpg,C15Ah,C15Ah.jpg
+2,6,26,Target,NA,The policeman thumped the soldier with a gun,C15Jh,C15Jh.jpg,C15Jl,C15Jl.jpg
+2,6,27,Filler,NA,The nun followed the sailor,A11D,A11D.jpg,A11C,A11C.jpg
+2,6,28,Filler,NA,De artiest sloeg de kruik,A8C,A8C.jpg,B8G,B8G.jpg
+2,6,29,Filler,NA,The chef pushed the clown,B19F,B19F.jpg,B19E,B19E.jpg
+2,15,70,Prime,high,De artiest prikte de danser met een sleutel,C25Fh,C25Fh.jpg,C25Bh,C25Bh.jpg
+2,15,71,Target,NA,The waitress prodded the burglar with a hammer,C25Kh,C25Kh.jpg,C25Kl,C25Kl.jpg
+2,15,72,Filler,NA,De cowboy gooide een geweer naar de soldaat,B4B,B4B.jpg,B4A,B4A.jpg
+2,15,73,Filler,NA,De kok hield de bal vast,A9A,A9A.jpg,A9C,A9C.jpg
+2,15,74,Filler,NA,De artiest verkocht een kruik aan de dokter,B5B,B5B.jpg,A5E,A5E.jpg
+2,8,35,Prime,high,De politieman stompte de zwemmer met een bal,C15Gh,C15Gh.jpg,C15Ch,C15Ch.jpg
+2,8,36,Target,NA,The cowboy thumped the pirate with a hammer,C15Lh,C15Lh.jpg,C15Ll,C15Ll.jpg
+2,8,37,Filler,NA,De piraat hield de hoed vast,A9E,A9E.jpg,A9D,A9D.jpg
+2,8,38,Filler,NA,The artist kissed the boxer,A13B,A13B.jpg,A13A,A13A.jpg
+2,8,39,Filler,NA,De monnik kietelde de artiest,A21C,A21C.jpg,A21F,A21F.jpg
+2,25,120,Prime,low,De politieman sloeg de zeiler met een hamer,C8Ql,C8Ql.jpg,C8Ml,C8Ml.jpg
+2,25,121,Target,NA,The artist hit the pirate with a hammer,C8Hh,C8Hh.jpg,C8Hl,C8Hl.jpg
+2,25,122,Filler,NA,The teacher hit the jug,A8A,A8A.jpg,A8C,A8C.jpg
+2,25,123,Filler,NA,The cowboy offered the burglar an apple,A6F,A6F.jpg,A6D,A6D.jpg
+2,25,124,Filler,NA,The artist shot the jug,B17B,B17B.jpg,B17A,B17A.jpg
+2,37,180,Prime,low,De leraar prikte de zwemmer met een paraplu,C25Ql,C25Ql.jpg,C25Ml,C25Ml.jpg
+2,37,181,Target,NA,The policeman prodded the soldier with a gun,C25Dh,C25Dh.jpg,C25Dl,C25Dl.jpg
+2,37,182,Filler,NA,The nun kissed the monk,B13B,B13B.jpg,B13C,B13C.jpg
+2,37,183,Filler,NA,De artiest verkocht een hoed aan de zeiler,B5E,B5E.jpg,A5B,A5B.jpg
+2,37,184,Filler,NA,The chef shot the burglar,A17B,A17B.jpg,A17A,A17A.jpg
+2,40,195,Prime,low,De leraar verwonde de zwemmer met een hamer,C26Pl,C26Pl.jpg,C26Ll,C26Ll.jpg
+2,40,196,Target,NA,The pirate injured the burglar with a sword,C26Ch,C26Ch.jpg,C26Cl,C26Cl.jpg
+2,40,197,Filler,NA,De serveerster schopte de bal,A7A,A7A.jpg,A7E,A7E.jpg
+2,40,198,Filler,NA,De serveerster bood de danser een geweer aan,B6D,B6D.jpg,B6J,B6J.jpg
+2,40,199,Filler,NA,The pirate showed the boxer a jug,B3G,B3G.jpg,B3C,B3C.jpg
+2,7,30,Prime,high,De chef stompte de zeiler met een geweer,C15Fh,C15Fh.jpg,C15Bh,C15Bh.jpg
+2,7,31,Target,NA,The artist thumped the monk with a book,C15Kh,C15Kh.jpg,C15Kl,C15Kl.jpg
+2,7,32,Filler,NA,De artiest kietelde clown,A21F,A21F.jpg,A21E,A21E.jpg
+2,7,33,Filler,NA,De inbreker gaf de bokser een beker,B1E,B1E.jpg,C1E,C1E.jpg
+2,7,34,Filler,NA,The dancer followed the pirate,B11C,B11C.jpg,B11G,B11G.jpg
+2,19,90,Prime,high,De leraar verwonde de zeiler met een hamer,C26Fh,C26Fh.jpg,C26Bh,C26Bh.jpg
+2,19,91,Target,NA,The cowboy injured the clown with a sword,C26Kh,C26Kh.jpg,C26Kl,C26Kl.jpg
+2,19,92,Filler,NA,De serveerster kietelde de monnik,B21F,B21F.jpg,B21E,B21E.jpg
+2,19,93,Filler,NA,The artist sold the sailor a book,A5C,A5C.jpg,B5D,B5D.jpg
+2,19,94,Filler,NA,The nun pushed the dancer,A19B,A19B.jpg,A19A,A19A.jpg
+2,11,50,Prime,high,De artiest porde de bokser met een geweer,C16Fh,C16Fh.jpg,C16Bh,C16Bh.jpg
+2,11,51,Target,NA,The teacher poked the soldier with a banana,C16Kh,C16Kh.jpg,C16Kl,C16Kl.jpg
+2,11,52,Filler,NA,De zwemmer duwde de kok,B19G,B19G.jpg,B19B,B19B.jpg
+2,11,53,Filler,NA,De cowboy sloeg de zwemmer,A8E,A8E.jpg,A8D,A8D.jpg
+2,11,54,Filler,NA,De kok hief de cake op,B10C,B10C.jpg,B10B,B10B.jpg
+2,36,175,Prime,low,De artiest prikte de monnik met een sleutel,C25Pl,C25Pl.jpg,C25Ll,C25Ll.jpg
+2,36,176,Target,NA,The teacher prodded the boxer with a banana,C25Ch,C25Ch.jpg,C25Cl,C25Cl.jpg
+2,36,177,Filler,NA,De piraat hield de bal vast,B9C,B9C.jpg,A9E,A9E.jpg
+2,36,178,Filler,NA,The teacher ate the apple,B15A,B15A.jpg,B15C,B15C.jpg
+2,36,179,Filler,NA,De serveerster kietelde de inbreker,B21D,B21D.jpg,B21C,B21C.jpg
+2,41,200,Prime,low,De kok verwonde de bokser met een geweer,C26Ql,C26Ql.jpg,C26Ml,C26Ml.jpg
+2,41,201,Target,NA,The cowboy injured the doctor with a bat,C26Dh,C26Dh.jpg,C26Dl,C26Dl.jpg
+2,41,202,Filler,NA,De piraat overhandigde de bokser een cake,A2E,A2E.jpg,A2H,A2H.jpg
+2,41,203,Filler,NA,The artist sold the sailor a hat,B5D,B5D.jpg,A5B,A5B.jpg
+2,41,204,Filler,NA,The cowboy threw the soldier a gun,B4H,B4H.jpg,B4A,B4A.jpg
+2,18,85,Prime,high,De kok verwonde de zwemmer met een geweer,C26Eh,C26Eh.jpg,C26Ah,C26Ah.jpg
+2,18,86,Target,NA,The pirate injured the sailor with a bat,C26Jh,C26Jh.jpg,C26Jl,C26Jl.jpg
+2,18,87,Filler,NA,The waitress tickled the doctor,A21D,A21D.jpg,B21A,B21A.jpg
+2,18,88,Filler,NA,De piraat gooide een boek naar de zeiler,B4B,B4B.jpg,B4G,B4G.jpg
+2,18,89,Filler,NA,The boxer shot the artist,B17C,B17C.jpg,B17G,B17G.jpg
+2,2,5,Prime,high,De cowboy sloeg de soldaat met een boek,C8Fh,C8Fh.jpg,C8Bh,C8Bh.jpg
+2,2,6,Target,NA,The teacher hit the swimmer with a gun,C8Jh,C8Jh.jpg,C8Jl,C8Jl.jpg
+2,2,7,Filler,NA,The chef gave the clown a ball,A1D,A1D.jpg,A1B,A1B.jpg
+2,2,8,Filler,NA,De leraar verkocht een appel aan de soldaat,B5C,B5C.jpg,A5L,A5L.jpg
+2,2,9,Filler,NA,The waitress offered the dancer a cake,B6H,B6H.jpg,B6F,B6F.jpg
+2,20,95,Prime,high,De piraat verwonde de inbreker met een zwaard,C26Gh,C26Gh.jpg,C26Ch,C26Ch.jpg
+2,20,96,Target,NA,the teacher injured the swimmer with a hammer,C26Lh,C26Lh.jpg,C26Kl,C26Kl.jpg
+2,20,97,Filler,NA,De kok hief de bal op,A10C,A10C.jpg,B10D,B10D.jpg
+2,20,98,Filler,NA,The pirate lifted the ball,A10D,A10D.jpg,A10C,A10C.jpg
+2,20,99,Filler,NA,De zeiler volgde de non,A11C,A11C.jpg,A11F,A11F.jpg
+2,16,75,Prime,high,De leraar prikte de bokser met een banaan,C25Gh,C25Gh.jpg,C25Ch,C25Ch.jpg
+2,16,76,Target,NA,The artist prodded the monk with a key,C25Lh,C25Lh.jpg,C25Ll,C25Ll.jpg
+2,16,77,Filler,NA,De artiest kuste de clown,B13A,B13A.jpg,A13C,A13C.jpg
+2,16,78,Filler,NA,De cowboy bood de monnik een appel aan,A6D,A6D.jpg,A6B,A6B.jpg
+2,16,79,Filler,NA,The nun held the cup,B9E,B9E.jpg,B9A,B9A.jpg
+2,24,115,Prime,low,De kok sloeg de inbreker met een knuppel,C8Pl,C8Pl.jpg,C8Ll,C8Ll.jpg
+2,24,116,Target,NA,The policeman hit the dancer with a gun,C8Gh,C8Gh.jpg,C8Gl,C8Gl.jpg
+2,24,117,Filler,NA,The monk shot the chef,A17F,A17F.jpg,A17G,A17G.jpg
+2,24,118,Filler,NA,De non gooide een beker naar de zwemmer,A4A,A4A.jpg,A4G,A4G.jpg
+2,24,119,Filler,NA,De leraar kuste de appel,A13D,A13D.jpg,B13D,B13D.jpg
+2,10,45,Prime,high,De serveerster porde de dokter met een banaan,C16Eh,C16Eh.jpg,C16Ah,C16Ah.jpg
+2,10,46,Target,NA,The artist poked the clown with a gun,C16Jh,C16Jh.jpg,C16Jl,C16Jl.jpg
+2,10,47,Filler,NA,De kok gaf de bokser een bal,A1E,A1E.jpg,A1J,A1J.jpg
+2,10,48,Filler,NA,The chef lifted the gun,A10A,A10A.jpg,B10F,B10F.jpg
+2,10,49,Filler,NA,The teacher sold the dancer a jug,A5E,A5E.jpg,A5H,A5H.jpg
+2,5,20,Prime,high,De kok sloeg de inbreker met een knuppel,C8Ph,C8Ph.jpg,C8Lh,C8Lh.jpg
+2,5,21,Target,NA,The nun hit the monk with a ball,C8Ah,C8Ah.jpg,C8Al,C8Al.jpg
+2,5,22,Filler,NA,The pirate lifted the cup,B10A,B10A.jpg,A10E,A10E.jpg
+2,5,23,Filler,NA,The artist showed the swimmer a hat,A3E,A3E.jpg,A3G,A3G.jpg
+2,5,24,Filler,NA,De artiest verkocht een banaan aan de inbreker,A5G,A5G.jpg,A5F,A5F.jpg
+2,21,100,Prime,high,De cowboy verwonde de dokter met een knuppel,C26Hh,C26Hh.jpg,C26Dh,C26Dh.jpg
+2,21,101,Target,NA,The chef injured the boxer with a gun,C26Mh,C26Mh.jpg,C26Ml,C26Ml.jpg
+2,21,102,Filler,NA,The artist sold the clown a cup,B5A,B5A.jpg,B5F,B5F.jpg
+2,21,103,Filler,NA,The waitress touched the dancer,A23B,A23B.jpg,A23A,A23A.jpg
+2,21,104,Filler,NA,De kok gaf de bokser een geweer,A1E,A1E.jpg,A1C,A1C.jpg
+2,12,55,Prime,high,De leraar porde de inbreker met een sleutel,C16Gh,C16Gh.jpg,C16Ch,C16Ch.jpg
+2,12,56,Target,NA,The policeman poked the dancer with a hammer,C16Lh,C16Lh.jpg,C16Ll,C16Ll.jpg
+2,12,57,Filler,NA,The artist hit the book,B8G,B8G.jpg,B8C,B8C.jpg
+2,12,58,Filler,NA,The pirate handed the sailor a cake,A2H,A2H.jpg,A2A,A2A.jpg
+2,12,59,Filler,NA,The cowboy hit the dancer,B8D,B8D.jpg,B8F,B8F.jpg
+2,26,125,Prime,low,De politieman stompte de soldaat met een geweer,C15Nl,C15Nl.jpg,C15Jl,C15Jl.jpg
+2,26,126,Target,NA,The teacher thumped the clown with a book,C15Ah,C15Ah.jpg,C15Al,C15Al.jpg
+2,26,127,Filler,NA,De piraat toonde de serveerster een kruik,C3J,C3J.jpg,B3G,B3G.jpg
+2,26,128,Filler,NA,De serveerster bood de danser een cake aan,B6J,B6J.jpg,B6F,B6F.jpg
+2,26,129,Filler,NA,The chef lifted the hat,A10B,A10B.jpg,B10E,B10E.jpg
+2,22,105,Prime,low,De leraar sloeg de zwemmer met een geweer,C8Nl,C8Nl.jpg,C8Jl,C8Jl.jpg
+2,22,106,Target,NA,The nun hit the monk with a book,C8Eh,C8Eh.jpg,C8El,C8El.jpg
+2,22,107,Filler,NA,De artiest schoot op de bokser,B17D,B17D.jpg,B17C,B17C.jpg
+2,22,108,Filler,NA,The burglar showed the soldier a cup,B3F,B3F.jpg,C3D,C3D.jpg
+2,22,109,Filler,NA,De kok duwde de clown,A19B,A19B.jpg,B19E,B19E.jpg
+2,13,60,Prime,high,De leraar porde de monnik met een paraplu,C16Hh,C16Hh.jpg,C16Dh,C16Dh.jpg
+2,13,61,Target,NA,The waitress poked the boxer with a key,C16Mh,C16Mh.jpg,C16Ml,C16Ml.jpg
+2,13,62,Filler,NA,De cowboy sloeg de dokter,B8E,B8E.jpg,B8D,B8D.jpg
+2,13,63,Filler,NA,De kok gaf de dokter een bal,A1B,A1B.jpg,A1F,A1F.jpg
+2,13,64,Filler,NA,The burglar tickled the waitress,B21C,B21C.jpg,B21G,B21G.jpg
+2,34,165,Prime,low,De politieman prikte de dokter met een geweer,C25Nl,C25Nl.jpg,C25Jl,C25Jl.jpg
+2,34,166,Target,NA,The waitress prodded the clown with an umbrella,C25Ah,C25Ah.jpg,C25Al,C25Al.jpg
+2,34,167,Filler,NA,The pirate followed the dancer,B11D,B11D.jpg,B11C,B11C.jpg
+2,34,168,Filler,NA,De artiest verkocht een geweer aan de danser ,A5H,A5H.jpg,A5A,A5A.jpg
+2,34,169,Filler,NA,The teacher kissed the banana,A13F,A13F.jpg,B13F,B13F.jpg
+2,9,40,Prime,high,De artiest stompte de inbreker met een hamer,C15Hh,C15Hh.jpg,C15Dh,C15Dh.jpg
+2,9,41,Target,NA,The nun thumped the dancer with a bat,C15Mh,C15Mh.jpg,C15Ml,C15Ml.jpg
+2,9,42,Filler,NA,The artist tickled the dancer,A21B,A21B.jpg,A21A,A21A.jpg
+2,9,43,Filler,NA,De cowboy bood de inbreker een banaan aan,A6D,A6D.jpg,A6A,A6A.jpg
+2,9,44,Filler,NA,The policeman threw the boxer a hat,A4B,A4B.jpg,A4D,A4D.jpg
+2,39,190,Prime,low,De cowboy verwonde de clown met een zwaard,C26Ol,C26Ol.jpg,C26Kl,C26Kl.jpg
+2,39,191,Target,NA,The teacher injured the sailor with a hammer,C26Bh,C26Bh.jpg,C26Bl,C26Bl.jpg
+2,39,192,Filler,NA,The cowboy offered the soldier an apple,A6B,A6B.jpg,A6F,A6F.jpg
+2,39,193,Filler,NA,De leerkracht gaf de soldaat een boek,B1F,B1F.jpg,B1D,B1D.jpg
+2,39,194,Filler,NA,The chef handed the sailor a ball,C2E,C2E.jpg,B2G,B2G.jpg
+2,14,65,Prime,high,De serveerster prikte de clown met een paraplu,C25Eh,C25Eh.jpg,C25Ah,C25Ah.jpg
+2,14,66,Target,NA,The policeman prodded the docter with a gun,C25Jh,C25Jh.jpg,C25Jl,C25Jl.jpg
+2,14,67,Filler,NA,De artiest kuste de bokser,B13G,B13G.jpg,A13A,A13A.jpg
+2,14,68,Filler,NA,De inbreker verkocht een geweer aan de dokter ,B5B,B5B.jpg,C5B,C5B.jpg
+2,14,69,Filler,NA,The nun followed the soldier,A11B,A11B.jpg,A11A,A11A.jpg
+2,29,140,Prime,low,De non stompte de danser met een knuppel,C15Ql,C15Ql.jpg,C15Ml,C15Ml.jpg
+2,29,141,Target,NA,The artist thumped the burglar with a hammer,C15Dh,C15Dh.jpg,C15Dl,C15Dl.jpg
+2,29,142,Filler,NA,The artist handed the sailor a hat,B2B,B2B.jpg,A2G,A2G.jpg
+2,29,143,Filler,NA,De piraat volgde de monnik,B11B,B11B.jpg,B11A,B11A.jpg
+2,29,144,Filler,NA,De non duwde de hoed,A19D,A19D.jpg,A19C,A19C.jpg
+2,31,150,Prime,low,De leraar porde de soldaat met een banaan,C16Ol,C16Ol.jpg,C16Kl,C16Kl.jpg
+2,31,151,Target,NA,The artist poked the boxer with a gun,C16Bh,C16Bh.jpg,C16Bl,C16Bl.jpg
+2,31,152,Filler,NA,De leraar at de cake,A15A,A15A.jpg,B15A,B15A.jpg
+2,31,153,Filler,NA,The dancer showed the doctor a jug,C3B,C3B.jpg,C3H,C3H.jpg
+2,31,154,Filler,NA,De serveerster raakte de dokter aan,A23G,A23G.jpg,A23C,A23C.jpg
+2,17,80,Prime,high,De leraar prikte de soldaat met een geweer,C25Hh,C25Hh.jpg,C25Dh,C25Dh.jpg
+2,17,81,Target,NA,The teacher prodded the swimmer with an umbrella,C25Mh,C25Mh.jpg,C25Ml,C25Ml.jpg
+2,17,82,Filler,NA,The waitress kicked the clown,A7D,A7D.jpg,A7C,A7C.jpg
+2,17,83,Filler,NA,The teacher gave the swimmer a book,C1B,C1B.jpg,B1F,B1F.jpg
+2,17,84,Filler,NA,De piraat hief het geweer op,A10B,A10B.jpg,A10A,A10A.jpg
+2,4,15,Prime,high,De artiest sloeg de piraat met een geweer,C8Hh,C8Hh.jpg,C8Dh,C8Dh.jpg
+2,4,16,Target,NA,The policeman hit the sailor with a hammer,C8Mh,C8Mh.jpg,C8Ml,C8Ml.jpg
+2,4,17,Filler,NA,The artist tickled the monk,A21D,A21D.jpg,A21C,A21C.jpg
+2,4,18,Filler,NA,The chef held the ball,A9E,A9E.jpg,A9C,A9C.jpg
+2,4,19,Filler,NA,The pirate showed the burglar a hat,B3H,B3H.jpg,B3B,B3B.jpg
+2,32,155,Prime,low,De politieman porde de danser met een hamer,C16Pl,C16Pl.jpg,C16Ll,C16Ll.jpg
+2,32,156,Target,NA,The teacher poked the burglar with a key,C16Ch,C16Ch.jpg,C16Cl,C16Cl.jpg
+2,32,157,Filler,NA,The waitress kissed the cake,B13E,B13E.jpg,A13E,A13E.jpg
+2,32,158,Filler,NA,The chef gave the monk a ball,A1F,A1F.jpg,A1D,A1D.jpg
+2,32,159,Filler,NA,De serveerster kietelde de dokter,B21B,B21B.jpg,B21A,B21A.jpg
+2,27,130,Prime,low,De artiest stompte de monnik met een boek,C15Ol,C15Ol.jpg,C15Kl,C15Kl.jpg
+2,27,131,Target,NA,The chef thumped the sailor with a gun,C15Bh,C15Bh.jpg,C15Bl,C15Bl.jpg
+2,27,132,Filler,NA,The nun showed the boxer a banana,A3C,A3C.jpg,A3D,A3D.jpg
+2,27,133,Filler,NA,The policeman threw the monk a hat,A4D,A4D.jpg,A4F,A4F.jpg
+2,27,134,Filler,NA,De soldaat sloeg de artiest,B8J,B8J.jpg,B8H,B8H.jpg
+2,28,135,Prime,low,De cowboy stompte de piraat met een hamer,C15Pl,C15Pl.jpg,C15Ll,C15Ll.jpg
+2,28,136,Target,NA,The policeman thumped the swimmer with a ball,C15Ch,C15Ch.jpg,C15Cl,C15Cl.jpg
+2,28,137,Filler,NA,De piraat overhandigde de inbreker een cake,A2A,A2A.jpg,A2E,A2E.jpg
+2,28,138,Filler,NA,The pirate held the gun,A9D,A9D.jpg,A9F,A9F.jpg
+2,28,139,Filler,NA,The cowboy threw the sailor a ball,B4B,B4B.jpg,B4F,B4F.jpg
+2,3,10,Prime,high,De politieman sloeg de danser met een hamer,C8Gh,C8Gh.jpg,C8Ch,C8Ch.jpg
+2,3,11,Target,NA,The artist hit the clown with a ball,C8Kh,C8Kh.jpg,C8Kl,C8Kl.jpg
+2,3,12,Filler,NA,De artiest verkocht een geweer aan de dokter,C5B,C5B.jpg,B5B,B5B.jpg
+2,3,13,Filler,NA,The policeman threw the dancer an apple,A4H,A4H.jpg,A4C,A4C.jpg
+2,3,14,Filler,NA,De artiest gaf de soldaat een banaan,B1A,B1A.jpg,C1A,C1A.jpg
+2,35,170,Prime,low,De serveerster prikte de inbreker met een hamer,C25Ol,C25Ol.jpg,C25Kl,C25Kl.jpg
+2,35,171,Target,NA,The artist prodded the dancer with a key,C25Bh,C25Bh.jpg,C25Bl,C25Bl.jpg
+2,35,172,Filler,NA,De non kuste de danser,B13A,B13A.jpg,B13B,B13B.jpg
+2,35,173,Filler,NA,De serveerster at de cake,A15B,A15B.jpg,A15A,A15A.jpg
+2,35,174,Filler,NA,The artist sold the doctor a jug,A5D,A5D.jpg,A5E,A5E.jpg
+2,38,185,Prime,low,De piraat verwonde de zeiler met een knuppel,C26Nl,C26Nl.jpg,C26Jl,C26Jl.jpg
+2,38,186,Target,NA,The chef injured the swimmer with a gun,C26Ah,C26Ah.jpg,C26Al,C26Al.jpg
+2,38,187,Filler,NA,De leraar sloeg de monnik,A8B,A8B.jpg,A8A,A8A.jpg
+2,38,188,Filler,NA,The pirate showed the soldier a hat,B3F,B3F.jpg,B3H,B3H.jpg
+2,38,189,Filler,NA,De non duwde de zwemmer,B19B,B19B.jpg,A19E,A19E.jpg
+2,23,110,Prime,low,De artiest sloeg de clown met een bal,C8Ol,C8Ol.jpg,C8Kl,C8Kl.jpg
+2,23,111,Target,NA,The cowboy hit the soldier with a ball,C8Fh,C8Fh.jpg,C8Fl,C8Fl.jpg
+2,23,112,Filler,NA,De politieman gooide een hoed naar de soldaat,A4F,A4F.jpg,A4B,A4B.jpg
+2,23,113,Filler,NA,The waitress kissed the apple,A13E,A13E.jpg,A13D,A13D.jpg
+2,23,114,Filler,NA,De kok hield de kruik vast,A9B,A9B.jpg,A9A,A9A.jpg
