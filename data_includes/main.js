@@ -82,22 +82,22 @@ PennController("DeviceCheck+Subject",
                 .settings.bold()
                 .print()
             ,
-            newImage("IncorOrHA", variable.IncorOrHA)
+            newImage("Picture1", variable.IncorOrHA)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )
             ,
-            newImage("CorrOrLA", variable.CorrOrLA)
+            newImage("Picture2", variable.CorrOrLA)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )                                   
             ,
             newCanvas(1000,600)
                 .settings.center()
-                .settings.add(50   , 100,   getImage("IncorOrHA"))
-                .settings.add(550   , 100,   getImage("CorrOrLA"))
+                .settings.add(50   , 100,   getImage("Picture1"))
+                .settings.add(550   , 100,   getImage("Picture2"))
                 .print()
             ,
             newSelector()
-                .settings.add( getImage("IncorOrHA") , getImage("CorrOrLA") )
+                .settings.add( getImage("Picture1") , getImage("Picture2") )
                 .shuffle()
                 .settings.log()
                 .wait()
@@ -109,8 +109,8 @@ PennController("DeviceCheck+Subject",
     .log( "StimulusType"    , variable.Stimulus_type    )                          
     .log( "PrimeCondition"  , variable.Prime_condition  )  
     .log( "Sentence"        , variable.Sentence         )
-    .log( "IncorOrHA"       , variable.IncorOrHA        )                          
-    .log( "CorrOrLA"        , variable.CorrOrLA         )
+    .log( "Picture1"        , variable.IncorOrHA        )                          
+    .log( "Picture2"        , variable.CorrOrLA         )
                                   
 )
 
