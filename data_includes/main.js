@@ -86,18 +86,18 @@ PennController("DeviceCheck+Subject",
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )
             ,
-            newImage("CorrOrLa", variable.CorrOrLa)
+            newImage("CorrOrLa", variable.CorrOrLA)
                 .settings.size(350,350)
                 .settings.css( "border" , "solid 1px black" )                                   
             ,
             newCanvas(1000,600)
                 .settings.center()
-                .settings.add(50   , 100,   getImage("picture1"))
-                .settings.add(550   , 100,   getImage("picture2"))
+                .settings.add(50   , 100,   getImage("IncorOrHA"))
+                .settings.add(550   , 100,   getImage("CorrOrLA"))
                 .print()
             ,
             newSelector()
-                .settings.add( getImage("IncorOrHA") , getImage("CorrOrLa") )
+                .settings.add( getImage("IncorOrHA") , getImage("CorrOrLA") )
                 .shuffle()
                 .settings.log()
                 .wait()
@@ -110,7 +110,7 @@ PennController("DeviceCheck+Subject",
     .log( "PrimeCondition"  , variable.Prime_condition  )  
     .log( "Sentence"        , variable.Sentence         )
     .log( "IncorOrHA"       , variable.IncorOrHA        )                          
-    .log( "CorrOrLa"        , variable.CorrOrLa         )
+    .log( "CorrOrLA"        , variable.CorrOrLA         )
                                   
 )
 
