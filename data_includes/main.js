@@ -4,7 +4,7 @@ PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 //PennController.DebugOff()
 PennController.SetCounter("Counter")
 PennController.CheckPreloaded().label("Preload")
-PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "QuestionnairePage", "Send", "Closing")
+PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "LexTale_instructions", "LexTale_trials", "QuestionnairePage", "Send", "Closing")
 
 // Check for L1
 PennController("DeviceCheck+Subject",
@@ -114,6 +114,69 @@ PennController("DeviceCheck+Subject",
                                   
 )
 
+//// Implement the LexTale test
+/// Instructions:
+
+// Subject info
+   PennController("LexTale_instructions",
+    defaultText
+    ,
+    newText("LexTale_InstructionText", "Bijna gedaan! <br><br> Nu volgt eerst nog een korte test over je niveau van Engels, en daarna een korte vragenlijst. Je krijgt je cedit pas wanneer beide ingevuld zijn, dus sluit het experiment zeker nog niet af!  <br><br> Deze test bestaat uit 60 trials waar je telkens een aaneenschakeling van letters zal te zien krijgen. Jouw taak is om te beslissen of het een bestaand Engels woord is of niet. <br><br>Als je denkt dat het een bestaand Engels woord is, klik dan op <strong>yes</strong>, en als je denkt dat het geen bestaand Engels woord is, klik op <strong>no</strong>. Ook wanneer je zeker bent dat een woord bestaat maar je kent de betekenis er niet van, mag je nog steeds op <strong>yes</strong> klikken. Indien je echter niet zeker bent of het een bestaand woord is, moet je op <strong>no</strong> klikken. <br><br> De test gebruikt Britse spelling, geen Amerikaanse. Bijvoorbeeld: <i>realise</i> in de plaats van <i>realize</i>; <i>colour</i> in de plaats van <i>color</i>, en zo verder. Laat je hier niet door verwarren: de test gaat niet over zulke kleine spellingsverschillen. <br><br> Je hebt zoveel tijd als je wilt voor elke beslissing. De test duurt gemiddeld een 5-tal minuten.") 
+    ,
+    newCanvas("myCanvas", 600, 600)
+            .settings.add(0,0, getText("LexTale_InstructionText"))
+            .print()
+    ,              
+    newButton("Start")
+        .print()
+        .wait()
+    )   
+
+/// Trials
+    PennController.Template(
+        PennController.GetTable( "stimuli.csv")
+        ,
+        trial => PennController("LexTale_trials",
+            newText("stimulus", trial.Stimulus)
+                .settings.css("font-size", "60px")
+                .settings.css("font-family", "avenir")
+                .settings.bold()
+                .settings.center()
+                .print()
+              ,
+            newText("no", "No")
+                .settings.css("font-size", "60px")
+                .settings.css("font-family", "avenir")
+                .settings.color("red")
+                .settings.bold()
+            ,
+            newText("yes", "Yes")
+                .settings.css("font-size", "60px")
+                .settings.css("font-family", "avenir")
+                .settings.color("green")
+                .settings.bold()
+
+            ,
+            newCanvas(800, 600)
+                .settings.add( 0,     100,      getText("no"))
+                .settings.add( 500,     100,    getText("yes"))
+                .print()
+            ,
+            newSelector()
+                .settings.add(getText("no") , getText("yes") )
+                .settings.log()
+                .wait()
+        )
+    .log( "Stimulus"    , trial.Stimulus    )
+    .log( "Type"        , trial.Type        )
+    .log( "Block"       , trial.Block       )
+    .log( "Subject"         , getVar("Subject")         ) 
+    )
+ 
+// Send results to server
+//PennController.SendResults();
+
+    
 // Vragen gegevens:
 PennController("QuestionnairePage",
     newHtml("Questionnaire", "Questionnaire.html")
