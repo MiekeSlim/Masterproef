@@ -4,7 +4,7 @@ PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 //PennController.DebugOff()
 PennController.SetCounter("Counter")
 PennController.CheckPreloaded().label("Preload")
-PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "LexTale_instructions", "LexTale_trials", "QuestionnairePage", "Debriefing", "Send", "Closing")
+PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "LexTale_instructions", "LexTale_trials", "QuestionnairePage", "DebriefingPage", "Send", "Closing")
 
 // Check for L1
 PennController("DeviceCheck+Subject",
