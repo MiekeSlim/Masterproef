@@ -158,7 +158,7 @@ PennController("DeviceCheck+Subject",
 
             ,
             newCanvas(800, 600)
-                .settings.add( 50,     100,      getText("no"))
+                .settings.add( 300,     100,      getText("no"))
                 .settings.add( 500,     100,    getText("yes"))
                 .print()
             ,
