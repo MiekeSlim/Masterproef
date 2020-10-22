@@ -4,7 +4,7 @@ PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 //PennController.DebugOff()
 PennController.SetCounter("Counter")
 PennController.CheckPreloaded().label("Preload")
-PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "LexTale_instructions", "LexTale_trials", "QuestionnairePage", "Send", "Closing")
+PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "LexTale_instructions", "LexTale_trials", "QuestionnairePage", "Debriefing", "Send", "Closing")
 
 // Check for L1
 PennController("DeviceCheck+Subject",
@@ -48,7 +48,7 @@ PennController("DeviceCheck+Subject",
 // Welcome, consent, and creditstuff
 // Instructions
     PennController("Welcome",
-        newText("WelcomeText", "<p>Hallo en bedankt om deel te nemen aan deze studie! </p><p> </p><p>Vooraleer je besluit om deel te nemen aan deze studie, is het belangrijk om te snappen waarom dit onderzoek wordt uitgevoerd en wat het zal inhouden. Neem de tijd om onderstaande uitleg aandachtig te lezen. Je kan me (Helene Van Marcke) bereiken via Helene.VanMarcke@UGent.be indien er iets onduidelijk is of je meer informatie wenst. Neem de tijd om te beslissen of je deel wilt nemen of niet. </p><p> </p><p> In deze studie onderzoek ik aspecten van tweetalige taalverwerking in het kader van mijn masterproef. Indien je meer details zou wensen over de uiteindelijke resultaten van het onderzoek, kan je een e-mail sturen naar Helene.VanMarcke@UGent.be. </p><p> </p><p> Dit experiment is een tweetalig experiment in Nederlands en Engels. Het is belangrijk dat je moedertaal Nederlands is en je kennis van Engels hebt. In het experiment zal je telkens een zin lezen, gevolgd door twee plaatjes. <b> Jouw taak is om te klikken op het plaatje dat de gebeurtenis uit de zin correct weergeeft. Gelieve elke zin aandachtig te lezen vooraleer je een plaatje kiest. </b> Sommige zinnen zullen in het Nederlands zijn, sommige in het Engels. Indien je denkt dat beide plaatjes bij de zin kunnen passen, kies dan je spontane voorkeur. Na de taak zal je gevraagd worden enkele vragen over je taalachtergrond te beantwoorden. </p><p> </p><p> Gelieve dit experiment af te leggen op een webbrowser, niet via een tablet of smartphone. Niet deelnemen aan dit experiment is geheel vrijwillig. Het weigeren of stopzetten van je deelname zal op geen enkel moment een straf of verlies inhouden. </p><p> </p><p> Alle antwoorden worden anoniem opgeslagen en alleen ik (Helene Van Marcke) heb toegang tot persoonlijke gegevens. De resultaten van de studie zullen worden weergegeven op groepsniveau. Indien individuele data toch gepresenteerd wordt, gebeurt dit geheel anoniem en zonder mogelijkheid om het individu te traceren. </p><p> </p><p> Bij vragen, gelieve een mail te sturen naar Helene.VanMarcke@UGent.be</p><p> <br> <b>Het kan gebeuren dat er een scherm verschijnt waarop staat dat de survey aan het laden is. Gelieve gewoon te wachten wanneer dit gebeurt tot wanneer het experiment weer verdergaat. Dit duurt nooit lang. </b> ") 
+        newText("WelcomeText", "<p>Hallo en bedankt om deel te nemen aan deze studie! </p><p> </p><p>Vooraleer je besluit om deel te nemen aan deze studie, is het belangrijk om te snappen waarom dit onderzoek wordt uitgevoerd en wat het zal inhouden. Neem de tijd om onderstaande uitleg aandachtig te lezen. Je kan me (Helene Van Marcke) bereiken via Helene.VanMarcke@UGent.be indien er iets onduidelijk is of je meer informatie wenst. Neem de tijd om te beslissen of je deel wilt nemen of niet. </p><p> </p><p> In deze studie onderzoek ik aspecten van tweetalige taalverwerking in het kader van mijn masterproef. Indien je meer details zou wensen over de uiteindelijke resultaten van het onderzoek, kan je een e-mail sturen naar Helene.VanMarcke@UGent.be. </p><p> </p><p> Dit experiment is een tweetalig experiment in Nederlands en Engels. Het is belangrijk dat je moedertaal Nederlands is en je kennis van Engels hebt. In het experiment zal je telkens een zin lezen, gevolgd door twee plaatjes. <b> Jouw taak is om te klikken op het plaatje dat de gebeurtenis uit de zin correct weergeeft. Gelieve elke zin aandachtig te lezen vooraleer je een plaatje kiest. </b> Sommige zinnen zullen in het Nederlands zijn, sommige in het Engels. Indien je denkt dat beide plaatjes bij de zin kunnen passen, kies dan je spontane voorkeur. Na de taak volgt een korte test die je taalvaardigheidsniveau in het Engels meet, en erna zal je gevraagd worden enkele vragen over je taalachtergrond en het experiment te beantwoorden. </p><p> </p><p> Gelieve dit experiment af te leggen op een webbrowser, niet via een tablet of smartphone. Niet deelnemen aan dit experiment is geheel vrijwillig. Het weigeren of stopzetten van je deelname zal op geen enkel moment een straf of verlies inhouden. </p><p> </p><p> Alle antwoorden worden anoniem opgeslagen en alleen ik (Helene Van Marcke) heb toegang tot persoonlijke gegevens. De resultaten van de studie zullen worden weergegeven op groepsniveau. Indien individuele data toch gepresenteerd wordt, gebeurt dit geheel anoniem en zonder mogelijkheid om het individu te traceren. </p><p> </p><p> Bij vragen, gelieve een mail te sturen naar Helene.VanMarcke@UGent.be</p><p> <br> <b>Het kan gebeuren dat er een scherm verschijnt waarop staat dat de survey aan het laden is. Gelieve gewoon te wachten wanneer dit gebeurt tot wanneer het experiment weer verdergaat. Dit duurt nooit lang. </b> ") 
         ,
         newCanvas( "myCanvas", 500, 800)
             .settings.add(0,0, getText("WelcomeText"))
@@ -61,7 +61,7 @@ PennController("DeviceCheck+Subject",
     
 // Consent
     PennController("Consent",
-        newText("ConsentText", "<p> <b> Gelieve onderstaande tekst aandachtig te lezen! </b> </p><p> Ik snap dat mijn deelname vrijwillig is en ik mijn deelname op ieder moment mag stopzetten zonder een reden te moeten opgeven en zonder dat mijn rechten hierdoor aangetast worden. </p><p> Ik snap dat alle data die verzameld wordt anoniem zal worden gebruikt en opgeslagen, in overeenstemming met de Algemene Verordening Gegevensbescherming (GDPR). Resultaten worden normaal gezien weergegeven op groepsniveau. Indien individuele data toch gepresenteerd wordt, gebeurt dit volledig anoniem en zonder de mogelijkheid om het individu in kwestie te traceren. </p>")
+        newText("ConsentText", "<p> <b> Gelieve onderstaande tekst aandachtig te lezen! </b> </p><p> Ik snap dat mijn deelname vrijwillig is en ik mijn deelname op ieder moment mag stopzetten zonder een reden te moeten opgeven en zonder dat mijn rechten hierdoor aangetast worden. </p><p> Ik snap dat alle data die verzameld wordt anoniem zal worden gebruikt en opgeslagen, in overeenstemming met de Algemene Verordening Gegevensbescherming (GDPR). Resultaten worden normaal gezien weergegeven op groepsniveau en kunnen eventueel gepubliceerd worden. Indien individuele data toch gepresenteerd wordt, gebeurt dit volledig anoniem en zonder de mogelijkheid om het individu in kwestie te traceren. De individuele data die in dit experiment verzameld wordt, kan eventueel anoniem gedeeld worden met derden. </p>")
         ,
         newCanvas( "myCanvas", 300, 600)
             .settings.add(0,0, getText("ConsentText"))
@@ -170,7 +170,7 @@ PennController("DeviceCheck+Subject",
     .log( "Stimulus"    , trial.Stimulus    )
     .log( "Type"        , trial.Type        )
     .log( "Block"       , trial.Block       )
-    .log( "Subject"         , getVar("Subject")         ) 
+    .log( "Subject"     , getVar("Subject")         ) 
     )
  
 // Send results to server
@@ -191,6 +191,21 @@ PennController("QuestionnairePage",
         )                      
 )
 .log( "Subject", getVar("Subject")) 
+
+//Debriefing
+PennController("DebriefingPage",
+    newHtml("Debriefing", "Debriefing.html")
+    .settings.log()
+    .print()
+    ,
+    newButton("continue", "Volgende")
+        .print()
+        .wait(
+            getHtml("Debriefing").test.complete()
+                .failure( getHtml("Debriefing").warn() )
+        )
+)
+.log( "Subject", getVar("Subject"))
 
 
 PennController.SendResults("Send");
