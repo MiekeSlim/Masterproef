@@ -1,7 +1,7 @@
 // Masterproef
 
 PennController.ResetPrefix(null) // Shorten command names (keep this line here)
-//PennController.DebugOff()
+PennController.DebugOff()
 PennController.SetCounter("Counter")
 PennController.CheckPreloaded().label("Preload")
 PennController.Sequence("DeviceCheck+Subject", "Counter", "Welcome", "Consent", "Preload", "trials", "LexTale_instructions", "LexTale_trials", "QuestionnairePage", "DebriefingPage", "Send", "Closing")
@@ -173,10 +173,7 @@ PennController("DeviceCheck+Subject",
     .log( "Subject"     , getVar("Subject")         ) 
     )
  
-// Send results to server
-//PennController.SendResults();
-
-    
+  
 // Vragen gegevens:
 PennController("QuestionnairePage",
     newHtml("Questionnaire", "Questionnaire.html")
