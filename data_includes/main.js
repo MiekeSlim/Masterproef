@@ -210,7 +210,7 @@ PennController.SendResults("Send");
 PennController("Closing",
     newText("Explanation", "Bedankt voor je deelname! <br><br> Wil je meer weten over het experiment of de resultaten? Stuur dan een mail naar Helene.VanMarcke@UGent.be <br><br>  <b>Via de link boven deze tekst zul je je deelname moeten verifiëren op Prolific, zodat de betaling verwerkt kan worden.</b> De data zal volledig anoniem worden opgeslagen. <br><br>VERGEET NIET VIA BOVENSTAANDE LINK JE DEELNAME TE VERIFIËREN OP PROLIFIC (waarschijnlijk komt er een pop-up scherm in het beeld, je kunt op 'leave site' drukken) </b>")
 ,
-newText("Link","<p><a href='https://app.prolific.co/submissions/complete?cc=2A739727'>https://app.prolific.co/submissions/complete?cc=2A739727</a></p>")
+newText("Link","<p><a href='https://app.prolific.co/submissions/complete?cc=39BB93B3'>https://app.prolific.co/submissions/complete?cc=39BB93B3</a></p>")
 ,
 newCanvas("Canvas", 500, 600)
 .settings.add(0,0, getText("Link"))
