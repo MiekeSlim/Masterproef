@@ -31,18 +31,8 @@ PennController("DeviceCheck+Subject",
             ,
             newKey("SPACE")
             .wait()
-            
-    ,    
-    newTextInput("Subject", randomnumber = Math.floor(Math.random()*1000000)) 
     
-    ,
-    newVar("Subject")
-        .settings.global()
-        .set( getTextInput("Subject") )
-    
-    )
-    //.log( "Subject" , getVar("Subject") )        
-            
+    )            
 )         
 
 // Welcome, consent, and creditstuff
@@ -56,8 +46,16 @@ PennController("DeviceCheck+Subject",
         ,
         newButton("finish", "Doorgaan")
             .print()
-            .wait()  
+            .wait()
+        ,    
+        newTextInput("Subject", randomnumber = Math.floor(Math.random()*1000000)) 
+        ,
+        newVar("Subject")
+            .settings.global()
+            .set( getTextInput("Subject") )
      )
+     .log( "Subject" , getVar("Subject") ) 
+)
     
 // Consent
     PennController("Consent",
