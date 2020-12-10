@@ -56,7 +56,6 @@ PennController("DeviceCheck+Subject",
             .wait()
 
      )
-)
     
 // Consent
     PennController("Consent",
