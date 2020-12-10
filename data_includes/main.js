@@ -41,7 +41,7 @@ PennController("DeviceCheck+Subject",
         .set( getTextInput("Subject") )
     
     )
-    .log( "Subject" , getVar("Subject") )        
+    //.log( "Subject" , getVar("Subject") )        
             
 )         
 
