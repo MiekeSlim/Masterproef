@@ -44,18 +44,18 @@ PennController("DeviceCheck+Subject",
         newCanvas( "myCanvas", 500, 800)
             .settings.add(0,0, getText("WelcomeText"))
             .print()
-        ,
-        newButton("finish", "Doorgaan")
-            .print()
-            .wait()
-        ,    
+        ,  
         newTextInput("Subject", randomnumber = Math.floor(Math.random()*1000000)) 
         ,
         newVar("Subject")
             .settings.global()
             .set( getTextInput("Subject") )
+        ,
+        newButton("finish", "Doorgaan")
+            .print()
+            .wait()
+
      )
-     .log( "Subject" , getVar("Subject") ) 
 )
     
 // Consent
